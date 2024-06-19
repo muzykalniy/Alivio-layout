@@ -1,0 +1,48 @@
+.nav__btn--item1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    transition:
+        background-color 0.2s ease-in,
+        color 0.2s ease-in;
+    &:hover,
+    &:focus {
+        color: #404040;
+        transform: scale(1.05);
+    }
+}
+.nav__btn--item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+    padding: 13px 50px;
+    height: 30px;
+
+    border: 1px solid #01996d;
+    border-radius: 4px;
+    padding: 13px 50px;
+
+    height: 51px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #fff;
+    background: #01996d;
+
+    transition:
+        background-color 0.2s ease-in,
+        color 0.1s ease-in;
+    &:hover,
+    &:focus {
+        background-color: green;
+        transform: scale(1.02);
+    }
+    &:active {
+        background-color: #222222;
+    }
+}
