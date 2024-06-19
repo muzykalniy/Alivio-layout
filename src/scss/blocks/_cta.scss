@@ -1,0 +1,41 @@
+.cta {
+    padding: 169px 0 51px;
+}
+
+.cta__wrapper {
+}
+.cta__wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 136px;
+}
+.cta__wrapper-title {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.cta__subtitle {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+}
+.cta__title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996d;
+}
+.cta__content {
+    padding-top: 50px;
+    flex-basis: 70%;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    text-align: left;
+}
