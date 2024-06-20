@@ -15,15 +15,11 @@
     gap: 31px;
 }
 .about__wrapper-content {
+    & .about__title {
+        color: #fff;
+    }
 }
-.about__title {
-    margin-bottom: 33px;
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 157%;
-    color: #fff;
-}
+
 .about__content {
     margin-bottom: 57px;
     font-family: var(--font-family);
