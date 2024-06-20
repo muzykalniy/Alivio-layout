@@ -19,9 +19,9 @@
 						<div class="logo">
 							<a href="#!"
 								><picture>
-									<source srcset="./img/Logo.webp 1x, ./img/Logo@2x.webp 2x" type="image/webp" />
-									<source srcset="./img/Logo.png 1x, ./img/Logo@2x.png 2x" type="image/png" />
-									<img src="./img/Logo.png" srcset="./img/Logo.png" alt="Alt" /> </picture
+									<source srcset="./img/logo/Logo.webp 1x, ./img/logo/Logo@2x.webp 2x" type="image/webp" />
+									<source srcset="./img/logo/Logo.png 1x, ./img/logo/Logo@2x.png 2x" type="image/png" />
+									<img src="./img/logo/Logo.png" srcset="./img/logo/Logo.png" alt="Logo" /> </picture
 							></a>
 						</div>
 						<nav class="header__nav nav">
@@ -322,8 +322,20 @@ background-image: image-set(
 		</main>
 		<footer class="footer">
 			<div class="container">
-				<div class="footer__copyright">
-					<p>Сборка сделана в&#160;школе <a href="#!" target="_blank">ссылка</a></p>
+				<div class="footer__wrapper">
+					<picture>
+						<source srcset="./img/logo/footer-logo.webp 1x, ./img/logo/footer-logo@2x.webp 2x" type="image/webp" />
+						<source srcset="./img/logo/footer-logo.png 1x, ./img/logo/footer-logo@2x.png 2x" type="image/png" />
+						<img class="footer__logo" src="./img/logo/footer-logo.png" srcset="./img/logo/footer-logo.png" alt="Alt" />
+					</picture>
+					<div class="footer__nav">
+						<ul class="footer__nav-list">
+							<li><a href="#!">Why Alivio</a></li>
+							<li><a href="#!">Solutions</a></li>
+							<li><a href="#!">Community</a></li>
+							<li><a href="#!">Pricing</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</footer>
