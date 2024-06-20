@@ -1,7 +1,9 @@
 .cta {
     padding: 169px 0 51px;
+    height: 100%;
     @include mobile {
-        padding: 19px 0 0px;
+        padding: 19px 0 51px;
+        height: 100%;
     }
 }
 
