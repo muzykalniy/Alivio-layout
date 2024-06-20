@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Alivio</title>
 		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./../libs/youtubeLightbox/youtubeLightbox.css" />
 	</head>
 
 	<body>
@@ -118,6 +119,30 @@
 					</div>
 				</div>
 			</section>
+			<section class="about">
+				<div class="container">
+					<div class="about__wrapper">
+						<div class="about__wrapper-content">
+							<h2 class="about__title">Let&#8217;s hear about Kayla&#8217;s success story</h2>
+							<div class="about__content">
+								See how well Alivio works in&#160;a&#160;real customer&#8217;s life.
+							</div>
+							<button class="btn about__btn">Let&#8217;s get started</button>
+						</div>
+						<div class="about__video-wrapper">
+							<a href="https://www.youtube.com/watch?v=NmsFT_OdDlU" class="video__link"
+								><picture>
+									<source srcset="./img/youtube/youtube.webp 1x, ./img/youtube/youtube@2x.webp 2x" type="image/webp" />
+									<source srcset="./img/youtube/youtube.png 1x, ./img/youtube/youtube@2x.png 2x" type="image/png" />
+									<img class="video__img" src="./img/youtube/youtube.png" alt="" />
+								</picture>
+								<svg class="icon icon--video">
+									<use href="./img/svgsprite/sprite.symbol.svg#Group"></use></svg
+							></a>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="container">
@@ -126,6 +151,7 @@
 				</div>
 			</div>
 		</footer>
+		<script src="./../libs/youtubeLightbox/youtubeLightbox.js"></script>
 		<script src="./js/index.bundle.js"></script>
 	</body>
 </html>
