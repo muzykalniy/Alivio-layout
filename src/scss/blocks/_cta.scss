@@ -1,5 +1,8 @@
 .cta {
     padding: 169px 0 51px;
+    @include mobile {
+        padding: 19px 0 0px;
+    }
 }
 
 .cta__wrapper {
@@ -9,6 +12,11 @@
     justify-content: space-between;
     align-items: center;
     gap: 136px;
+    @include mobile {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
 }
 .cta__wrapper-title {
     display: flex;
@@ -18,25 +26,36 @@
 .cta__subtitle {
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 24px;
+    font-size: clamp(1rem, 0.8519rem + 0.7407vw, 1.5rem);
     line-height: 157%;
     color: #424242;
+    @include mobile {
+        text-align: center;
+    }
 }
 .title {
     margin-bottom: 33px;
     font-family: var(--second-family);
     font-weight: 700;
-    font-size: 50px;
+    font-size: clamp(2rem, 1.6667rem + 1.6667vw, 3.125rem);
     line-height: 157%;
     color: #01996d;
+    @include mobile {
+        margin-bottom: 0px;
+        text-align: center;
+    }
 }
 .cta__content {
     padding-top: 50px;
     flex-basis: 70%;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 20px;
+    font-size: clamp(1rem, 0.9259rem + 0.3704vw, 1.25rem);
     line-height: 150%;
     color: #424242;
     text-align: left;
+    @include mobile {
+        text-align: center;
+        padding-top: 20px;
+    }
 }
