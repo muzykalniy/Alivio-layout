@@ -1,5 +1,8 @@
 .product {
     padding: 120px 0 160px;
+    @include mobile {
+        padding: 60px 0 80px;
+    }
     .container {
         height: 100%;
     }
@@ -9,6 +12,10 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    @include mobile {
+        flex-direction: column;
+        gap: 290px;
+    }
 }
 .product__img-wrapper {
     position: relative;
@@ -32,17 +39,26 @@
     font-size: 25px;
     line-height: 157%;
     color: #424242;
+    @include mobile {
+        text-align: center;
+    }
 }
 
 .product__title {
     margin-bottom: 20px;
+    @include mobile {
+        text-align: center;
+    }
 }
 .product__content {
     margin-bottom: 40px;
     max-width: 530px;
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 20px;
+    font-size: clamp(1rem, 0.9259rem + 0.3704vw, 1.25rem);
     line-height: 157%;
     color: #484848;
+    @include mobile {
+        text-align: center;
+    }
 }

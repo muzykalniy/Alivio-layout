@@ -46,7 +46,8 @@
         background-color: #222222;
     }
     @include mobile {
-        &.about__btn {
+        &.about__btn,
+        &.product__btn {
             margin-left: 50px;
         }
     }

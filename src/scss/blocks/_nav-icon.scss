@@ -28,7 +28,7 @@
 	position: relative;
 	width: var(--width);
 	height: var(--line-height);
-	background-color: var(--color);
+	background-color: #245852;
 	border-radius: var(--radius);
 }
 
@@ -44,7 +44,7 @@
 	height: var(--line-height);
 
 	border-radius: var(--radius);
-	background-color: var(--color);
+	background-color: #245852;
 	transition:
 		transform var(--time) ease-in,
 		top var(--time) linear var(--time);
@@ -67,6 +67,7 @@
 .nav-icon.nav-icon--active::before,
 .nav-icon.nav-icon--active::after {
 	top: 0;
+	background-color: #245852;
 	transition:
 		top var(--time) linear,
 		transform var(--time) ease-in var(--time);

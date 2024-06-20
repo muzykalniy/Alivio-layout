@@ -17,6 +17,10 @@
     &:hover {
         transform: scale(1.05);
     }
+    @include mobile {
+        top: 280px;
+        left: 20px;
+    }
 }
 .custom__subtitle {
     margin-bottom: 21px;
@@ -25,7 +29,6 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 157%;
-
     color: #000;
     &::after {
         content: "";
