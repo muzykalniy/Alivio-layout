@@ -45,4 +45,9 @@
     &:active {
         background-color: #222222;
     }
+    @include mobile {
+        &.about__btn {
+            margin-left: 50px;
+        }
+    }
 }
